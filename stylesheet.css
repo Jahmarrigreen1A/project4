@@ -1,0 +1,112 @@
+body  {
+	padding: 0;
+	margin: 0;
+	background: #f9f9f9
+	/* Old browsers */
+	background: -moz- linear-gradient(45deg, #f9f9f9 0% #EAE0D5 100%);
+	/*FF3.6-15*/
+	background: -webkit- linear-gradient(45deg, #f9f9f9 0%, #EAE0D5 100%);
+	/* Chrome10-25, Safari5.1-6 */
+	background: linear-gradient(45deg,#f9f9f9 0%, #EAE0D5 100%);
+}
+
+h1 {
+	color: #ffffff;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 100px;
+	line-height: 76px;
+	margin: 0;
+	position: relative;
+	text-align: center;
+	top: 20%;
+}
+w3-bar-item w3-border {
+	background-color: #000000
+	overflow: hidden;
+}
+ 
+
+h2 {
+	color: #E8B8C7;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 28px;
+	font-weight: 200;
+text-align: left;
+text-transform: uppercase;	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff
+	/* Old browsers */
+	background: -moz- linear-gradient(45deg, #f9f9f9 0% #EAE0D5 100%);
+	/*FF3.6-15*/
+	background: -webkit- linear-gradient(45deg, #f9f9f9 0%, #EAE0D5 100%);
+	/* Chrome10-25, Safari5.1-6 */
+	background: linear-gradient(45deg,#f9f9f9 0%, #EAE0D5 100%);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: 	#000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+p {
+	color: #000000;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 26px;
+	font-weight: 200;
+text-align: left;
+text-transform: uppercase;
+    margin-right: 200px;
+    margin-left: 10px;	
+}
+
+h3 {
+	color: #E8B8C7;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 36px;
+	font-weight: 200;
+text-align: left;
+text-transform: uppercase;	
+}
+
+h4 {
+	color: #E8B8C7;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 36px;
+	font-weight: 200;
+text-align: left;
+text-transform: uppercase;	
+}
+
+h5 {
+	color: #E8B8C7;
+	font-family: "Times New Roman", sans-serif;
+	font-size: 36px;
+	font-weight: 200;
+text-align: left;
+text-transform: uppercase;	
+}
+
+#content img {
+  float: right;
+}
