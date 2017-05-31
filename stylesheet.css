@@ -1,52 +1,9 @@
-body  {
-	padding: 0;
-	margin: 0;
-	background: #f9f9f9
-	/* Old browsers */
-	background: -moz- linear-gradient(45deg, #f9f9f9 0% #EAE0D5 100%);
-	/*FF3.6-15*/
-	background: -webkit- linear-gradient(45deg, #f9f9f9 0%, #EAE0D5 100%);
-	/* Chrome10-25, Safari5.1-6 */
-	background: linear-gradient(45deg,#f9f9f9 0%, #EAE0D5 100%);
-}
-
-h1 {
-	color: #ffffff;
-	font-family: "Times New Roman", sans-serif;
-	font-size: 100px;
-	line-height: 76px;
-	margin: 0;
-	position: relative;
-	text-align: center;
-	top: 20%;
-}
-w3-bar-item w3-border {
-	background-color: #000000
-	overflow: hidden;
-}
- 
-
-h2 {
-	color: #E8B8C7;
-	font-family: "Times New Roman", sans-serif;
-	font-size: 28px;
-	font-weight: 200;
-text-align: left;
-text-transform: uppercase;	
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff
-	/* Old browsers */
-	background: -moz- linear-gradient(45deg, #f9f9f9 0% #EAE0D5 100%);
-	/*FF3.6-15*/
-	background: -webkit- linear-gradient(45deg, #f9f9f9 0%, #EAE0D5 100%);
-	/* Chrome10-25, Safari5.1-6 */
-	background: linear-gradient(45deg,#f9f9f9 0%, #EAE0D5 100%);
+    background-color: #333;
 }
 
 li {
@@ -55,24 +12,40 @@ li {
 
 li a {
     display: block;
-    color: 	#000000;
+    color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+	font-family: "Impact", sans-serif;
 }
 
 li a:hover:not(.active) {
-    background-color: #ffffff;
+    background-color: #ff0000;
 }
 
 .active {
-    background-color: #ffffff;
+    background-color: #ff0000;
 }
 
+h1{
+	color: white;
+	font-family: "Impact", sans-serif;
+	font-size: 64px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h2{
+	color: white;
+	font-family:"Impact", sans-serif;
+	font-size: 32px;
+	text-align: center;
+	text-transform: uppercase;
+}
 p {
-	color: #000000;
-	font-family: "Times New Roman", sans-serif;
-	font-size: 26px;
+	color: #ffffff;
+	font-family: "Impact", sans-serif;
+	font-size: 46px;
 	font-weight: 200;
 text-align: left;
 text-transform: uppercase;
@@ -82,7 +55,7 @@ text-transform: uppercase;
 
 h3 {
 	color: #E8B8C7;
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Impact", sans-serif;
 	font-size: 36px;
 	font-weight: 200;
 text-align: left;
@@ -91,7 +64,7 @@ text-transform: uppercase;
 
 h4 {
 	color: #E8B8C7;
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Impact", sans-serif;
 	font-size: 36px;
 	font-weight: 200;
 text-align: left;
@@ -100,11 +73,38 @@ text-transform: uppercase;
 
 h5 {
 	color: #E8B8C7;
-	font-family: "Times New Roman", sans-serif;
+	font-family: "Impact", sans-serif;
 	font-size: 36px;
 	font-weight: 200;
 text-align: left;
 text-transform: uppercase;	
+}
+
+table, td, th {    
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+	text-align: center;
+    padding: 9px;
+}
+
+tr:hover {background-color: black}
+
+th {
+    color: white;
+}
+
+td
+{
+    font-family: "Impact", sans-serif;
+	color: white;
+	font-size: 36px;
 }
 
 #content img {
